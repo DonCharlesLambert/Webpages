@@ -10,10 +10,10 @@ Comments
 * Page looks like it belongs embedded in another page
 
 ## ⚽ Football Survey
-Page Structure: 6/10
-Aesthetic: 3/10
-Responsiveness: 3/10
+Page Structure: 6/10  
+Aesthetic: 3/10  
+Responsiveness: 3/10  
 
-Comments
+Comments  
 * Looks like a streaming site
 * Terrible on phones, background image cuts... use media query?
