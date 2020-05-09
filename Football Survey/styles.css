@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body{
+	font-family: 'Poppins';
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Stade_de_France_1000_023.jpg/1200px-Stade_de_France_1000_023.jpg);
+  	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100%;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(18, 0, 180, 0.9);
+	color: white;
+	width: 70%;
+	margin: auto;
+	padding: 1% 0px 1% 0px;
+	border-radius: 5%;
+	font-size: 18px;
+}
+
+form{
+	width: 85%;
+}
+
+.form-group{
+	display: flex;
+	flex-direction: column;
+	margin-top: 5%;
+}
+
+.label-input-pair{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	font-size: 20px;
+}
+
+.textbox{
+  display: block;
+  height: 2.375rem;
+  padding: 0.25rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.clickbox{
+	width: 10%;
+}
+
+textarea{
+	margin: 2%;
+	height: 100px;
+}
+
+p{
+	margin-bottom: 0px;
+}
