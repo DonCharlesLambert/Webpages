@@ -1,0 +1,54 @@
+#main-nav{
+    position:fixed;
+    width:100%;
+    z-index: 1000;
+}
+
+main{;
+  padding-top: 100px;
+  width: 70%;
+  margin: auto;
+}
+
+html, body{
+  background-color: #4e5266;
+  background-repeat: space;
+  background-size: cover;
+  height: 100%;
+}
+
+#main-view{
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+#quotes-view{
+}
+
+#colorful-nav{
+  height: 100%;
+}
+
+#color-nav-item-one{
+  background-color: #4cabb1;
+}
+
+#color-nav-item-two{
+  background-color: #69c7ad;
+}
+
+#colorful-nav-img{
+  width: 100%;
+}
+
+.color-nav-item{
+  height: 50%;
+}
+
+.quotes-view{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 20% 0px 20%;
+}
