@@ -1,0 +1,23 @@
+/* Why is Bootstrap broken */
+.row{
+  width: 100%;
+  margin: 0;
+}
+/***************************/
+
+body{
+  font-family: sans-serif;
+  background-color: #008cba;
+}
+
+#main-div{
+  background-color: white;
+  margin: auto;
+  height: 800px;
+  border-radius: 15px;
+}
+
+#logo-div{
+  margin: auto;
+  margin-top: 1%;
+}
