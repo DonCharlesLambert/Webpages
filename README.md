@@ -32,3 +32,4 @@ Comments
 * Not as responsive, possible due to use of CSS Grid rather than Bootstrap table
 * Looks kinda proffesional
 
+![Screenshot of Bible Site](https://github.com/DonCharlesLambert/Webpages/blob/master/Screenshots/Bible.PNG?raw=true)
