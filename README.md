@@ -1,9 +1,9 @@
 # Webpages
 
 ## 🐐 Donald Trump Tribute Page
-Page Structure: 4/10  
+Page Structure: 2/10  
 Aesthetic: 3/10  
-Responsiveness: 6/10  
+Responsiveness: 4/10  
 
 Comments
 * Less Than 4 Words: Bad, Good Start
@@ -11,7 +11,7 @@ Comments
 * Page looks like it belongs embedded in another page
 
 ## ⚽ Football Survey
-Page Structure: 6/10  
+Page Structure: 4/10  
 Aesthetic: 3/10  
 Responsiveness: 3/10  
 
@@ -33,3 +33,16 @@ Comments
 * Looks kinda proffesional
 
 ![Screenshot of Bible Site](https://github.com/DonCharlesLambert/Webpages/blob/master/Screenshots/Bible.PNG?raw=true)
+
+## 🐔 Donals
+Page Structure: 6/10  
+Aesthetic: 5/10  
+Responsiveness: 5/10  
+
+Comments  
+* Less Than 4 Words: Chicken
+* Structure is nice
+* Is responsive but need to zoom in to see anything properly on mobile
+* May redo the Donals idea
+
+![Screenshot of Donals on Mobile](https://github.com/DonCharlesLambert/Webpages/blob/master/Screenshots/mobileDonals.jpeg?raw=true)
