@@ -1,14 +1,12 @@
 # Webpages
 
 ## 🐐 Donald Trump Tribute Page
-Page Structure: 2/10  
-Aesthetic: 3/10  
-Responsiveness: 4/10  
+Page Structure: 9/10  
+Aesthetic: 8/10  
+Responsiveness: 9/10  
 
 Comments
-* Less Than 4 Words: Bad, Good Start
-* Colour scheme is bland
-* Page looks like it belongs embedded in another page
+* Less Than 4 Words: Great
 
 ## ⚽ Football Survey
 Page Structure: 4/10  
