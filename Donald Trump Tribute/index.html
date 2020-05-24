@@ -2,39 +2,147 @@
 <html>
 <head>
   <title> Donald Trump Tribute </title>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
   <link href="styles.css" rel="stylesheet" type="text/css"/>
+  <link href="bootstrap.min.css" rel="stylesheet" type="text/css"/>
 </head>
   <body>
     <main>
       <div id="title">
-        <h1> 🐐 Donald Trump 🐐 </h1>
-        <p id="tribute-quote">
-          "What separates the winners from the losers is how a person reacts to each new twist of fate"
-        </p>
-        <hr/>
-        <nav>
-          <div class="nav" id="btn-home">Home</div>
-          <div class="nav life" id="btn-life">Life</div>
-          <div class="nav presidency" id="btn-pres">Presidency</div>
-        </nav>  
-        <hr/>
       </div>
+      <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Donald Trump</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" id="btn-home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="btn-life">Life</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="btn-pres">Presidency</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <article>
-        <!-- Tribute Image -->
-        <div id="img-div">
-          <img id="image" src="https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/05/12/104466932-PE_Color.530x298.jpg?v=1494613853" alt="Donald Trump"/>
-          <p id="img-caption"><strong>Donald Trump</strong></p>
+        <!-- Tribute Info -->
+        <div id="tribute-info-1">
+          <div class="shine">
+            <div class="row">
+              <div class="col-lg-8 col-md-8">
+                <div id="tribute-quote">
+                  <p>
+                    <strong>
+                      "What separates the winners from the losers is how a person reacts
+                      to each new twist of fate"
+                    </strong>
+                  </p>
+                </div>
+                <p id="info"> Donald John Trump (born June 14, 1946) is the 45th and
+                  current president of the United States. Before entering politics,
+                  he was a businessman and television personality. He is the chairman
+                  and president of The Trump Organization, which is the principal
+                  holding company for his real estate ventures and other business
+                  interests. During his career, Trump has built office towers, hotels,
+                  casinos, golf courses, an urban development project in Manhattan,
+                  and other branded facilities worldwide.
+                <p>
+              </div>
+              <div class="col-lg-4 col-md-4 img-container" height:"100%">
+                <img class="jumb-img" width="100%"
+                src="https://static.seekingalpha.com/uploads/2016/8/29/957061-14724851644215226.png"
+                alt="Donald Trump after making Forbes list this month">
+                <p> The 45th President of the United States of America</p>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <!-- Tribute Info -->
-        <div id="tribute-info">
-          <p id="info"> Donald John Trump (born June 14, 1946) is the 45th and current president of the United States. Before entering politics, he was a businessman and television personality. He is the chairman and president of The Trump Organization, which is the principal holding company for his real estate ventures and other business interests. During his career, Trump has built office towers, hotels, casinos, golf courses, an urban development project in Manhattan, and other branded facilities worldwide.<p>
+        <!-- Tribute Media -->
+        <div class="vid-row row">
+          <div class="col-lg-4 col-md-12 vid-container">
+            <div class="vid-jumb jumbotron">
+              <h4> Trump vs Hillary </h4>
+              <hr/>
+              <iframe
+              width="100%"
+              src="https://www.youtube.com/embed/Hbh2qXBMjuY">
+              </iframe>
+              <p>
+                The 2016 United States presidential election was the 58th
+                quadrennial presidential election, held on Tuesday, November 8,
+                2016. The Republican ticket of businessman Donald Trump and
+                Indiana governor Mike Pence defeated the Democratic ticket of
+                former secretary of state Hillary Clinton and U.S. senator from
+                Virginia Tim Kaine, despite losing the popular vote. Trump
+                took office as the 45th president, and Pence as the 48th vice
+                president, on January 20, 2017.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 vid-container">
+            <div class="vid-jumb jumbotron">
+              <h4> Trump vs Jeb </h4>
+              <hr/>
+              <iframe
+              width="100%"
+              src="https://www.youtube.com/embed/SXKmEEAhDj0">
+              </iframe>
+              <p>
+                The dynamic between Bush and opponent Donald Trump was one of
+                the more contentious relationships among the Republican
+                contenders. Bush's campaign spent millions of dollars on
+                anti-Trump ads, while in response Trump mocked Jeb Bush with the
+                epithet that he was "low energy". Trump told CNN "the last thing
+                we need is another Bush" in the White House after the
+                much-criticized presidencies of his father and brother.
+                Trump criticized Bush's elder brother and his role in the Iraq
+                War throughout the Republican debates, leading Bush to defend
+                his brother. During an exchange between Bush and Trump in the
+                ninth Republican primary debate, the audience repeatedly booed
+                Trump. Trump scoffed that the audience was made up of "Jeb's
+                special interests and lobbyists".
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 vid-container">
+            <div class="vid-jumb jumbotron">
+              <h4> Biden vs Biden </h4>
+              <hr/>
+              <iframe
+              width="100%"
+              src="https://www.youtube.com/embed/_1xnunfpurA">
+              </iframe>
+              <p>
+                On March 22, during a live debate, Biden stated that he never
+                called for social security cuts, a statement
+                that his critics assert is false.
+
+                In a virtual town hall with CNN on March 27, Biden said that the
+                Trump administration had not made an effort to send U.S. medical
+                experts to China to investigate the outbreak of coronavirus
+                disease 2019, a claim FactCheck.org characterized as false.
+                Health and Human Services Secretary Alex Azar had said at a
+                January 28 press conference, "On January 6, we offered to send a
+                CDC team to China that could assist with these public health
+                efforts."
+
+                In May 2020, Biden stated he has been endorsed by NAACP, a claim
+                the organization denied
+            </div>
+          </div>
         </div>
 
         <!-- Tribute Link -->
         <a id="tribute-link" href="https://en.wikipedia.org/wiki/Donald_Trump" target="_blank">Read More About Donald Trump</a>
       </article>
-    </main>  
+    </main>
   </body>
   <script src="menu.js"></script>
 </html>

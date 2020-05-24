@@ -1,81 +1,69 @@
-main{
-	background-color: white;
-	width: 80%;
-	margin: 2% auto 2% auto;
-	border-radius: 5%;
-	padding-bottom: 3%;
-	box-shadow: 5px 5px 5px 5px gray;
-	font-family: sans-serif;
-}
-
-nav{
-	display: flex;
-	justify-content: space-evenly;
-}
-
-.nav{
-	width: 25%;
-}
-
-.nav:hover{
-	font-size: 20px;
-}
-
-article{
-	display: grid;
-	grid-template-areas: 
-		"image image content content"
-		"image image content content"
-		"footer footer footer footer";
-	width: 80%;
-	margin: auto;	
-}
-
-hr{
-	width: 90%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 #title{
-	text-align: center;
-	padding: 1%;
+	background: url("https://pixelz.cc/wp-content/uploads/2018/08/president-of-united-states-donald-trump-uhd-4k-wallpaper.jpg");
+	background-size: cover;
+	height: 92vh;
 }
 
 #tribute-quote{
-	color: rgba(0, 0, 0, 0.5);
+	color: white;
+	font-family: 'Anton';
+	font-size: 24px;
+	align: center;
+	text-align: center;
+	padding: 2%;
 }
 
-#img-div{
+.img-container{
+	text-align: center;
+}
+
+hr{
+	background-color: white;
+}
+
+.vid-container{
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	grid-area: image;
-}
-
-#image{
- margin: auto auto 0px auto;
- max-width: 100%;
- width: 80%; 
- height: auto;
- border-style: solid;
- border-color: rgba(0, 0, 0, 0);
- border-width: 3px;
- border-radius: 5%;
- /*#2f36cc;*/
-}
-
-#img-caption{
-	margin: 0px auto auto auto;
-}
-
-#tribute-info{
-	grid-area: content;
-}
-
-#info{
-	text-align: justify;
-}
-
-#tribute-link{
+	justify-content: center;
 	margin: auto;
-	grid-area: footer;
+	text-align: center;
+	height: 100%;
+}
+
+.jumbotron{
+	padding: 0%;
+	width: 80vw;
+	margin: auto;
+}
+
+.vid-jumb{
+	height: 100%;
+	padding-top: 8% !important;
+}
+
+.jumb-img{
+	padding: 0px;
+	position: relative;
+	bottom: 0px;
+}
+
+.row{
+	width: 100%;
+}
+
+.shine{
+	margin: auto;
+	width: 90vw;
+}
+
+.vid-row{
+	margin: 0px !important;
+	height: 100vh;
+}
+
+@media(max-width: 890px){
+	#title{
+		background-position: 20% 0px;
+	}
 }
