@@ -13,14 +13,7 @@ main{
 
 html, body{
   background-color: #4e5266;
-  background-repeat: space;
-  background-size: cover;
   height: 100%;
-}
-
-#main-view{
-  display: grid;
-  grid-template-columns: 40% 60%;
 }
 
 #quotes-view{
@@ -39,9 +32,14 @@ html, body{
 }
 
 #colorful-nav-img{
-  height: 100%;
-  width: 100%;
-  object-fit: fill;
+  background: url("https://images4.alphacoders.com/266/thumb-1920-266584.jpg");
+  background-position: center;
+}
+
+@media(max-width: 770px){
+  #colorful-nav-img{
+    height: 30vh;
+  }
 }
 
 .btn{
@@ -59,11 +57,15 @@ html, body{
 }
 
 .color-nav-item{
-  height: 50%;
   border-width: 0px;
   text-align: center;
   color: white;
   padding: 10% 5% 10% 5%;
+}
+
+.join{
+  margin: 0;
+  padding: 0;
 }
 
 .quotes-view{
@@ -73,4 +75,5 @@ html, body{
   text-align: center;
   padding: 2.5% 20% 2.5% 20%;
   border-width: 0px;
+  width: 100%;
 }

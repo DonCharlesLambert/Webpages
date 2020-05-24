@@ -5,6 +5,7 @@
 	<title>Buy A Bible</title>
 	<link href="bootstrap.min.css" rel="stylesheet" type="text/css"/>
 	<link href="styles.css"        rel="stylesheet" type="text/css"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
 <body>
 	<!-- Navigation Bar -->
@@ -34,57 +35,65 @@
 		<!-- Main/Initial View -->
 		<div id="main-view">
 			<div class="list-group" id="colorful-nav">
-			  <a
-				href="#"
-				class="list-group-item list-group-item-action
-				flex-column align-items-start color-nav-item"
-				id="color-nav-item-one">
-					<h2>Feeling Alone?</h2>
-					<p>
-						There is a massive network of people who want to study God's word
-						with you! Join a cell group and study the word together.
-					</p>
-					<button type="button" class="btn btn-one">
-						More
-					</button>
-			  </a>
-				<a
-				href="#"
-				class="list-group-item list-group-item-action
-				flex-column align-items-start color-nav-item"
-				id="color-nav-item-two"
-				>
-					<h2>Read Your Bible</h2>
-					<p>
-						Now is the best time to begin reading your bible again! Continue to
-						read and study the word as you draw closer to God.
-					</p>
-					<button type="button" class="btn btn-two">
-						More
-					</button>
-			  </a>
+				<div class="row">
+					<!-- Item One -->
+					<div class="col-lg-5 col-md-5 col-sm-12 join">
+				  <a
+						href="#"
+						class="list-group-item list-group-item-action
+						flex-column align-items-start color-nav-item"
+						id="color-nav-item-one">
+							<h2>Feeling Alone?</h2>
+							<p>
+								There is a massive network of people who want to study God's word
+								with you! Join a cell group and study the word together.
+							</p>
+							<button type="button" class="btn btn-one">
+								More
+							</button>
+					  </a>
+					<!--</div>-->
+					<!-- Item Two -->
+					<!--<div class="col-lg-6 join">-->
+						<a
+						href="#"
+						class="list-group-item list-group-item-action
+						flex-column align-items-start color-nav-item"
+						id="color-nav-item-two"
+						>
+							<h2>Read Your Bible</h2>
+							<p>
+								Now is the best time to begin reading your bible again! Continue to
+								read and study the word as you draw closer to God.
+							</p>
+							<button type="button" class="btn btn-two">
+								More
+							</button>
+					  </a>
+					</div>
+					<!-- Image -->
+					<div class="col-lg-7 col-md-7 col-sm-12" id="colorful-nav-img">
+					</div>
+				</div>
 			</div>
-			<img
-			id="colorful-nav-img"
-			src="https://media.swncdn.com/cms/BST/53920-Reading-Hands-Bible-Open-Bible-Bible-Study-Book-1209805.800w.tn.jpg"
-			alt="An open bible"
-			/>
 	  </div>
 
-		<div class="quotes-view card">
-		  <div class="card-body">
-		    <h4 class="card-title">Verses From The Bible</h4>
-		    <h6 class="card-subtitle mb-2 text-muted">John 3:16</h6>
-		    <p class="card-text">
-					"For God so loved the world, that he gave his only begotten
-					that whosoever believes in him, shall not die but may have
-					eternal life"
-				</p>
-		    <a href="https://bible.com" target="_blank" class="card-link">Read At YouVersion</a>
-		  </div>
-			<div class="btn-group" role="group" aria-label="Basic example">
-  			<button type="button" class="btn btn-secondary"><</button>
-  			<button type="button" class="btn btn-secondary">></button>
+		<div class="row">
+			<div class="quotes-view card">
+			  <div class="card-body">
+			    <h4 class="card-title">Verses From The Bible</h4>
+			    <h6 class="card-subtitle mb-2 text-muted">John 3:16</h6>
+			    <p class="card-text">
+						"For God so loved the world, that he gave his only begotten
+						that whosoever believes in him, shall not die but may have
+						eternal life"
+					</p>
+			    <a href="https://bible.com" target="_blank" class="card-link">Read At YouVersion</a>
+			  </div>
+				<div class="btn-group" role="group" aria-label="Basic example">
+	  			<button type="button" class="btn btn-secondary"><</button>
+	  			<button type="button" class="btn btn-secondary">></button>
+				</div>
 			</div>
 		</div>
 	</main>
