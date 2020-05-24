@@ -1,46 +1,35 @@
+
 # Webpages
 
 ## 🐐 Donald Trump Tribute Page
-Page Structure: 9/10  
-Aesthetic: 8/10  
-Responsiveness: 9/10  
+#### On a laptop (1920x1080):
+<img src="https://github.com/DonCharlesLambert/Webpages/blob/master/Screenshots/donaldTrump.gif?raw=true" alt="Donald Trump Site"/>
 
-Comments
-* Less Than 4 Words: Great
+#### On an iPhone 8 (375x667):
+<div align="center">
+<img width="40%" src="https://github.com/DonCharlesLambert/Webpages/blob/master/Screenshots/donaldTrumpMobile.gif?raw=true" alt="Donald Trump Site on an iPhone 8"/>
+</div>
 
-## ⚽ Football Survey
-Page Structure: 4/10  
-Aesthetic: 3/10  
-Responsiveness: 3/10  
-
-Comments  
-* Less Than 4 Words: Amateur
-* Looks like a streaming site
-* Terrible on phones, background image cuts... use media query?
 
 ## 📖 Bible
-Page Structure: 7/10  
-Aesthetic: 5/10  
-Responsiveness: 3/10  
-
-Comments  
-* Less Than 4 Words: Clean
-* Uses bootswatch css
-* Intentional clone attempt of https://pixelarity.com/items/demos/altitude/cyan/index.html
-* Not as responsive, possible due to use of CSS Grid rather than Bootstrap table
-* Looks kinda proffesional
-
+#### On a laptop (1920x1080):
 <img width="90%" id="img" src="https://github.com/DonCharlesLambert/Webpages/blob/master/Screenshots/Bible.PNG?raw=true"/>
 
+#### On an Pixel 2 (411x731):
+<div align="center">
+<img width="40%" id="img" src="https://github.com/DonCharlesLambert/Webpages/blob/master/Screenshots/bibleMobile.PNG?raw=true"/>
+</div>
+
 ## 🐔 Donals
-Page Structure: 6/10  
-Aesthetic: 5/10  
-Responsiveness: 5/10  
+Will definitely redo
+#### On a laptop (1920x1080):
+<img width="100%" src="https://github.com/DonCharlesLambert/Webpages/blob/master/Screenshots/Donals.PNG?raw=true"/>
 
-Comments  
-* Less Than 4 Words: Chicken
-* Structure is nice
-* Is responsive but to small on mobile
-* May redo the Donals idea
+#### On an iPhone 8 (375x667):
+<div align="center">
+<img width="40%" src="https://github.com/DonCharlesLambert/Webpages/blob/master/Screenshots/mobileDonals.jpeg?raw=true"/>
+</div>
 
-<img width="60%" src="https://github.com/DonCharlesLambert/Webpages/blob/master/Screenshots/mobileDonals.jpeg?raw=true"/>
+
+## ⚽ Football Survey
+Whack
