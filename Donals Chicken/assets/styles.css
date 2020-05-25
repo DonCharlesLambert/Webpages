@@ -36,17 +36,22 @@ hr{
   margin-bottom: 2%;
 }
 
-.review-card{
-  height: 100px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 3%;
-}
 .review-pp{
-  height: 5vw;
-  margin-right: 3%;
   border-radius: 50%;
+  width: 7vw;
+  margin: auto;
+}
+
+.review-card{
+  padding-bottom: 2%;
+}
+
+.review-text{
+  padding-left: 0px;
+}
+
+.review-pic-div{
+  padding-right: 0px;
 }
 
 #gmap_canvas{
